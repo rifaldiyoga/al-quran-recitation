@@ -1,0 +1,111 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Noto Sans', sans-serif;
+  color: #737373;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+  max-width: 200px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  margin-inline: 30px;
+  font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: blue;
+}
+
+nav {
+  padding-inline: 40px;
+  height: 80px;
+  font-size: 18px;
+}
+
+.btn-login {
+  background-color: white;
+}
+
+.btn-login:hover {
+  background-color: #c5c5c5;
+}
+
+.btn-navbar-right {
+  border-radius: 0px;
+  padding-inline: 0px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-register {
+  background-color: #557DC5;
+  color: white;
+}
+
+.btn-register:hover {
+  background-color: #12429c;
+  color: white;
+}
+
+header {
+  margin-top: -80px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  display: block;
+  overflow: hidden;
+}
+
+header p {
+  font-size: 24px;
+  color: black;
+}
+
+h1 {
+  font-family: 'Asul', sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+section {
+  margin-top: 100px;
+}
+
+.section-cari h1 {
+  font-size: 32px;
+}
+
+.section-rekomendasi {
+  /* Rectangle 3 */
+  background: -webkit-gradient(linear, right top, left top, color-stop(14.58%, #EEF4F7), color-stop(68.75%, #FFFFFF));
+  background: linear-gradient(270deg, #EEF4F7 14.58%, #FFFFFF 68.75%);
+}
+
+.section-rekomendasi img {
+  max-width: 500px;
+}
+
+.box-grup {
+  background-color: white;
+  border-radius: 5px;
+  min-height: 300px;
+  padding: 0px !important;
+  overflow: hidden;
+  -webkit-box-shadow: 2px 2px 2px 5px #e7e7e780;
+          box-shadow: 2px 2px 2px 5px #e7e7e780;
+}
+
+.box-grup img {
+  height: 300px;
+  border: 3px black;
+  scale: initial;
+}
+
+.box-grup h1 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=main.css.map */
